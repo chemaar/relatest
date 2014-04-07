@@ -1,4 +1,6 @@
 cd trunk / prototypes / test-twitter 
 language: java
-mvn package
-
+jdk:
+  - oraclejdk7
+  - openjdk7
+  - openjdk6
