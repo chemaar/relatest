@@ -1,5 +1,5 @@
 language: java
-script: 
+after_install: 
  - cd trunk/prototypes/test-twitter
 jdk:
   - openjdk6
