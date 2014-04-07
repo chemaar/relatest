@@ -1,3 +1,4 @@
+script: cd trunk/prototypes/relatest
 language: java
 jdk:
   - openjdk6
