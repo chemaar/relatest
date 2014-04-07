@@ -104,11 +104,7 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
-		
-		<repository>
-			<id>github-releases</id>
-			<url>http://oss.sonatype.org/content/repositories/github-releases/</url>
-		</repository>
+
 	
 		
 	</repositories>
