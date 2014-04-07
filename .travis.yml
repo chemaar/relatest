@@ -1,4 +1,4 @@
-cd trunk / prototypes / test-twitter 
+cd trunk/prototypes/test-twitter 
 language: java
 jdk:
   - oraclejdk7
