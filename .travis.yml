@@ -1,4 +1,4 @@
-script: cd trunk/prototypes/relatest
+script: cd trunk/prototypes/test-twitter
 language: java
 jdk:
   - openjdk6
