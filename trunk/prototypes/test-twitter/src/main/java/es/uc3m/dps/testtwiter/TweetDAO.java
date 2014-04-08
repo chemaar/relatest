@@ -6,6 +6,6 @@ import twitter4j.TwitterException;
 
 public interface TweetDAO {
 	
-	public List<String> search(String queryStr) throws TwitterException;
+	public List<TweetTO> search(String queryStr) throws TwitterException;
 
 }

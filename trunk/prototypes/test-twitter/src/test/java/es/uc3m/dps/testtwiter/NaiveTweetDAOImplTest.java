@@ -1,5 +1,7 @@
 package es.uc3m.dps.testtwiter;
 
+import static org.junit.Assert.*;
+
 import java.util.List;
 
 import junit.framework.Assert;
@@ -8,11 +10,11 @@ import org.junit.Test;
 
 import twitter4j.TwitterException;
 
-public class TweetDAOImplTest {
+public class NaiveTweetDAOImplTest {
 
 	@Test
 	public void test() {
-		TweetDAO dao = new TweetDAOImpl();
+		TweetDAO dao = new NaiveTweetDAOImpl();
 		List<TweetTO> tweets;
 		try {
 			tweets = dao.search("bieber");
@@ -26,10 +28,10 @@ public class TweetDAOImplTest {
 	}
 	@Test
 	public void testFailed() {
-		TweetDAO dao = new TweetDAOImpl();
+		TweetDAO dao = new NaiveTweetDAOImpl();
 		List<TweetTO> tweets;
 		try {
-			tweets = dao.search(" ");
+			tweets = dao.search("");
 			Assert.assertTrue(false);
 		} catch (TwitterException e) {
 		
